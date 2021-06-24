@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+header{
+    display: flex;
+    background-color: #222222;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 105px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header img{
+    width: 234px;
+    height: 80px;
+    margin-left: 1.5rem;
+    
+    
+    
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 22px;
+    margin-right: 3rem;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #F3F3F3;  
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    height: 390px;
+    display: flex;
+    margin: auto;
+    margin-top: 1.5rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    
+}
+
+.container .card{
+    width: 530px;
+    height: 390px;
+    align-items: stretch;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+.container #l-title{
+    color: #FC200C;
+    position: absolute;
+    margin-top: 1.3rem;
+    margin-left: 2.3rem;
+    
+}
+
+.container span{
+    color: white;
+}
+
+.container #r-title{
+    color: #FC200C;
+    position: absolute;
+    margin-top: 1.3rem;
+    width: 100%;
+    max-width: 530px;
+    text-align: center;
+}
+
+.container .imgSec{
+    width: 530px;
+    height: 390px;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.list{
+    position: absolute;
+    width: 265px;
+    height: 200px;
+    margin-left: 3rem;
+    margin-top: 7rem;
+
+}
+
+#topfive{
+    margin-left: 1rem;
+    
+}
+
+.list ol{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 190px;
+    height: 125px;
+
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    max-width: 1349px;
+    height: 130px;
+    background-color: #222222;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 105px;
+    align-content: space-between;
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #F3F3F3;
+    font-weight: ;
+}
+
+.footer img{
+    margin-right: 3rem;
+}
